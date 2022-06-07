@@ -2,13 +2,25 @@
     box-sizing: border-box;
   }
 
+  head{
+    background-color: #333;
+  }
+
   body {
     margin: 0px;
     font-family: 'segoe ui';
+    background-color: #041717;
   }
-  header{
-    background-color:black;
-    height:400px ;
+  header .nav{
+    /* background-color:black; */
+    /* height:400px ; */
+    /* height: 80px; */
+    margin-top: 0px;
+    height: 80px; 
+    width: 100%;
+    background-color: #041717;
+    position: fixed;
+    margin-bottom: 0px;
   }
 
   .logo a{
@@ -20,12 +32,6 @@
       color: rgb(189, 97, 97);
   }
 
-  .nav {
-    height: 80px;
-    width: 100%;
-    background-color: #0c0d0d;
-    position: relative;
-  }
 
   .nav > .nav-header {
     display: inline;
@@ -159,11 +165,26 @@
       overflow-y: auto;
     }
   }
+  .container{
+    background-color: #041717;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    margin-top: 0px;
+  }
+  .container2{
+    background-color: #f3fbfb;
+    margin-top: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    /* height: ; */
+  }
   .sub-head{
       text-align: center;
       color: #eee;
       margin-bottom: 40px;
       margin-top: 40px;
+      padding-top: 20px;
+      /* padding-bottom: 20px; */
       font-family: Raleway, sans-serif;
       font-size:40px ;
       font-weight: 500;
@@ -201,6 +222,7 @@
   }
   .portfolio:hover{
     background-color: blueviolet;
+    text-decoration: underline;
   }
   .About{
     padding-top: 18px;
@@ -223,6 +245,7 @@
   }
   .About:hover{
     background-color: rgb(238, 42, 95);
+    text-decoration: underline;
   }
 
   #sub-class{
@@ -237,7 +260,7 @@
     margin-inline-start: 0px;
     margin-left: 0px;
     margin-right: 0px;
-    margin-top: 30px;
+    margin-top: 25px;
     overflow-wrap: break-word;
     text-align: center;
   }
@@ -248,8 +271,9 @@
     font-size:17px ;
     font-family: Raleway, sans-serif;
     line-height: 28pt;
-    margin-left:30% ;
+    margin-left:25% ;
     margin-right: 0px;
+    box-sizing: border-box;
   }
   #sub-class2 {
     font-size: 30px;
@@ -265,5 +289,53 @@
     margin-right: 0px;
     margin-top: 50px;
     overflow-wrap: break-word;
+    text-align: center;
+  }
+
+  .img-nav{
+    text-align:justify;
+     margin-left:70px;
+     box-sizing: border-box;
+  }
+  .img-size{
+    height:70px; width:70px; margin-top:20px;margin-right:40px;margin-left:40px;
+  }
+
+  .basic-text{
+    text-align:left; margin-left:70px;margin-top:30px;
+  }
+  .paragaph-nav{
+    font-weight:20;  color: rgb(139, 100, 100);width:70%; text-decoration:wavy
+  }
+  .img-link{
+    height:400px; width:400px; margin-top:20px;margin-bottom:20px; text-align:center; box-sizing: border-box;
+
+  }
+  #element {
+    box-sizing: border-box;
+    color: rgb(178, 178, 178);
+    cursor: auto;
+    display: block;
+    font-family: Raleway, sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    height: 15px;
+    letter-spacing: 7px;
+    line-height: 15.399999618530273px;
+    margin-block-end: 0px;
+    margin-block-start: 0px;
+    margin-bottom: 0px;
+    margin-inline-end: 0px;
+    margin-inline-start: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    overflow-wrap: break-word;
+    padding-top: 50px;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  
+  .footer{
     text-align: center;
   }
